@@ -7,119 +7,179 @@
     <meta name="author" content="Reinhard Arnold" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="favicon.ico" />
   </head>
   <body>
-    <div id="background">
-      <img id="bg-left" src="img/bg-left.svg" />
-      <img id="bg-right" src="img/bg-right.svg" />
-      <img id="bg-logo" src="img/logo.png" />
-    </div>
-
-    <div class="section">
+    <header>
       <div class="container">
-        <img id="logo" src="img/logo.png" />
-        <h1>Projekt Radathlon</h1>
-        <img src="img/banner.png" width="100%" />
-
-        <h1>Inhalt</h1>
-        <ul>
-          <li><a href="#was">Was ist Radathlon?</a></li>
-          <li><a href="#wie">Wie ist Radathlon organisiert?</a></li>
-          <li><a href="#kontakt">Wie kann Kontakt zum Team aufgenommen werden?</a></li>
-        </ul>
+        <img id="logo" src="img/logo_w.svg" alt="Logo" width="180" />
+        <h2>Das neuartige und einzigartige Sportevent</h2>
+        <img id="logo-text" src="img/logo_txt_w.svg" alt="radathlon" width="450" />
+        <p class="tagline">
+          Mountainbiking und Treffsicherheit am Luftgewehrschießstand miteinander verbinden.<br />Eine aufregende
+          Kombination aus beiden Disziplinen.
+        </p>
+        <div class="button-wrapper">
+          <!-- <a href="#was" class="button">Mehr dazu</a> -->
+          <p style="position: relative; top: 8px">
+            <img src="img/calendar.svg" width="30" style="margin-right: 8px; position: relative; top: 8px" />
+            <b>Samstag, 31. August 2024</b>
+          </p>
+          <!-- <a id="yt-button" href="https://www.youtube.com/@radathlon" target="_blank">
+            <img src="img/yt_logo_rgb_dark.png" width="180" />
+          </a> -->
+          <a
+            class="button"
+            title="Die Anmeldung ist leider noch nicht möglich."
+            onclick="alert('Die Anmeldung ist leider noch nicht möglich.')"
+            style="float: right"
+            >Jetzt anmelden</a
+          >
+        </div>
       </div>
-    </div>
+    </header>
 
-    <div class="section">
+    <section id="was">
       <div class="container">
-        <h1><a id="was">Was ist Radathlon?</a></h1>
-        <p>
-          Radathlon ist ein völlig neuartiges und einzigartiges Sportevent, das Mountainbiking und Treffsicherheit am
-          Luftgewehrschießstand miteinander verbindet. Es bietet eine aufregende Kombination aus diesen beiden
-          Disziplinen.
-        </p>
-        <p>
-          Teilnehmen können alle Personen ab dem vollendeten 16. Lebensjahr, die sich für diese faszinierende
-          Sporterfahrung begeistern. Sowohl die Mountainbike-Strecke als auch die Schießanlage sind so gestaltet, dass
-          sie von einer breiten Zielgruppe genutzt werden können.
-        </p>
-        <p>
-          Radathlon orientiert sich stark an der Trendsportart Biathlon, wobei das Fahrrad die Rolle der Ski übernimmt.
-          Dieser Mix aus Mountainbiken und Schießpräzision verleiht dem Event eine besondere Anziehungskraft und bietet
-          den Teilnehmern ein außergewöhnliches Sporterlebnis.
+        <div id="col-left" class="col">
+          <h1><a id="was">Was ist Radathlon?</a></h1>
+          <img src="img/probe.jpg" width="100%" />
+        </div>
+        <div id="col-right" class="col">
+          <p>
+            Radathlon ist ein völlig neuartiges und einzigartiges Sportevent, das Mountainbiking und Treffsicherheit am
+            Luftgewehrschießstand miteinander verbindet.
+          </p>
+          <p>
+            Radathlon orientiert sich stark an der Trendsportart Biathlon, wobei das Fahrrad die Rolle der Ski
+            übernimmt. Dieser Mix aus Mountainbiken und Schießpräzision verleiht dem Event eine besondere
+            Anziehungskraft und bietet den Teilnehmern ein außergewöhnliches Sporterlebnis.
+          </p>
+          <p>
+            Sowohl die Mountainbike-Strecke als auch die Schießanlage sind so gestaltet, dass sie von einer breiten
+            Zielgruppe genutzt werden können.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h1>Teaser</h1>
+        <p align="center">
+          <iframe
+            class="youtube-embed"
+            width="750"
+            height="420"
+            src="https://www.youtube.com/embed/F2bySAJKd-g?si=aEB7RbWcm49YIGpV"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+        picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
         </p>
       </div>
-    </div>
+    </section>
 
-    <div class="section">
+    <section id="fakten">
       <div class="container">
-        <h1><a id="wie">Wie ist Radathlon organisiert?</a></h1>
-        <p>
-          Radathlon wird von einem engagierten Team organisiert. Dieses Team besteht aus örtlichen Mountainbikern und
-          Vertretern eines Schützenvereins, die gemeinsam dafür sorgen, dass alles reibungslos abläuft.
-        </p>
-        <p>
-          Teilnehmen können alle Arten von Mountainbikes, sei es mit oder ohne elektrische Unterstützung. Die
-          Veranstaltung umfasst mehrere Rennen, die in verschiedenen Formaten durchgeführt werden. Jedes Rennen hat eine
-          durchschnittliche Dauer von etwa 3 Stunden.
-        </p>
-        <p>
-          Die Strecke, die die Teilnehmer bewältigen müssen, erstreckt sich über ca. 6 km und muss insgesamt 4 Mal
-          durchfahren werden. Zwischen den Runden müssen die Teilnehmer den Schießstand dreimal anfahren und aus 10 m
-          Entfernung jeweils 5 Schüsse abgeben. Dabei beeinflussen nicht getroffene Ziele die Rennzeit negativ, was zu
-          einem Zeitzuschlag für Schießfehler führt.
-        </p>
-        <p>
-          Um die Ergebnisse genau zu erfassen, kommt professionelle Messtechnik, sowohl an der Strecke, als auch am
-          Schießstand zum Einsatz. Die Teilnehmer tragen Transponder, um ihre Leistung zuverlässig zu erfassen. Die
-          Bilder und Ergebnisse vom Schießstand und der Strecke werden live auf eine beeindruckende Video-Wall
-          übertragen, sodass das Publikum das Geschehen hautnah verfolgen kann.
-        </p>
-        <p>
-          Die Teilnehmer haben die Chance, attraktive Preise zu gewinnen. Die drei bestplatzierten Fahrer jedes Rennens
-          erhalten Geldpreise, und derjenige mit der besten Gesamtleistung des Tages wird zusätzlich mit einem Pokal
-          ausgezeichnet. Der Radathlon verspricht also nicht nur sportliche Herausforderungen, sondern auch eine
-          mitreißende Atmosphäre für Teilnehmer und Zuschauer gleichermaßen.
-        </p>
+        <h1><a id="fakten">Fakten</a></h1>
+        <div class="card-wrapper">
+          <div class="card">
+            <img src="img/people.svg" width="80" />
+            <h2>Teilnahme-<br />bedingungen</h2>
+            <p>Alle Personen ab dem vollendeten 16. Lebensjahr.</p>
+            <p>Teilnehmen können alle Arten von Mountainbikes, sei es mit oder ohne elektrische Unterstützung.</p>
+          </div>
+          <!-- <div class="card">
+          <h2>Teilnahmegebühr</h2>
+          <p>Die Teilnahmegebühr beträgt 20,- € pro Person.</p>
+          <p>
+            Die Teilnahmegebühr beinhaltet die Teilnahme an einem Rennen, die Nutzung der Strecke und des Schießstandes
+            sowie die Verpflegung während der Veranstaltung.
+          </p>
+        </div> -->
+          <div class="card">
+            <img src="img/route.svg" width="80" />
+            <h2>Die Strecke</h2>
+            <p>
+              Die Strecke ist ca. 6 km lang und muss insgesamt 4 Mal mit E-Bike oder dem klassischen Mountainbike
+              durchfahren werden.
+            </p>
+            <a class="button" href="#strecke">Strecke ansehen</a>
+          </div>
+          <div class="card">
+            <img src="img/target.svg" width="80" />
+            <h2>Das Schießen</h2>
+            <p>
+              Zwischen den Runden müssen die Teilnehmer den Schießstand dreimal anfahren und aus 10 Meter Entfernung
+              jeweils 5 Schüsse abgeben. Jeder Nichttreffer führt zu einem Zeitzuschlag auf die Gesamtrennzeit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <h2>Die Strecke</h2>
-        <img src="img/strecke.png" alt="Die Strecke" title="Die Strecke" width="100%" />
-        <p>
-          Ein finaler Streckenplan sowie ein Übersichtsplan vom Veranstaltungsort werden zu einem späteren Zeitpunkt
-          ebenfalls online veröffentlicht.
-        </p>
+    <section id="strecke">
+      <div class="container">
+        <div class="col">
+          <h1><a id="strecke">Die Strecke</a></h1>
+          <p>
+            Ein finaler Streckenplan sowie ein Übersichtsplan vom Veranstaltungsort werden zu einem späteren Zeitpunkt
+            ebenfalls online veröffentlicht.
+          </p>
+          <p>Start und Ziel der Strecke werden das Schützenhaus Massenhaus sein.</p>
+        </div>
+        <img src="img/strecke_g.png" alt="Die Strecke" title="Die Strecke" width="100%" />
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h1>Ablauf</h1>
         <p>
           Um sich optimal auf den Radathlon vorzubereiten, werden kostenlose Schießübungen im Schützenhaus Massenhausen
           angeboten. Diese finden jeweils dienstags um 19:00 Uhr statt. Alternativ können individuelle Termine vorab
           telefonisch unter: <a href="tel:05691 1841">05691 1841</a> vereinbart werden.
         </p>
         <p>
-          Der Radathlon ist für <b>Samstag, den 31. August 2024</b> geplant und verspricht ein aufregendes Sporterlebnis für alle
-          Teilnehmer. Im Anschluss an die Veranstaltung erwartet die Teilnehmer eine After-Race-Party mit Live-Musik, um
-          das sportliche Ereignis gebührend zu feiern. Die Anmeldungen für das Event werden über die offizielle Website
-          möglich sein. Weitere Informationen zur Veranstaltung werden kontinuierlich ergänzt, sodass Interessierte
-          stets auf dem neuesten Stand sind.
+          Der Radathlon ist für <b>Samstag, den 31. August 2024</b> geplant und verspricht ein aufregendes Sporterlebnis
+          für alle Teilnehmer. Im Anschluss an die Veranstaltung erwartet die Teilnehmer eine After-Race-Party mit
+          Live-Musik, um das sportliche Ereignis gebührend zu feiern. Die Anmeldungen für das Event werden über die
+          offizielle Website möglich sein. Weitere Informationen zur Veranstaltung werden kontinuierlich ergänzt, sodass
+          Interessierte stets auf dem neuesten Stand sind.
         </p>
       </div>
-    </div>
+    </section>
 
-    <div class="section">
+    <section id="kontakt">
       <div class="container">
-        <h1><a id="kontakt">Wie kann Kontakt zum Team aufgenommen werden?</a></h1>
-        <img src="img/team2.jpg" alt="Das Team" title="Das Team" width="100%" />
-        <p>Wir stehen jederzeit für Sponsoring-Gespräche zur Verfügung und sind wie folgt zu erreichen:</p>
-        <p>
-          Karl-Friedrich Böhle<br />
-          Mobil: <a href="tel:0151 58603520">0151 58603520</a><br />
-          E-Mail: <a href="mailto:karlfriedrich.boehle@freenet.de">karlfriedrich.boehle@freenet.de</a>
-        </p>
+        <img src="img/team.jpg" alt="Das Team" title="Das Team" width="100%" />
+        <div class="col">
+          <h1><a id="kontakt">Ihr habt Fragen?</a></h1>
+          <p>
+            <img src="img/person.svg" width="40" />
+            <span>Ansprechpartner</span><br />
+            Karl-Friedrich Böhle
+          </p>
+          <p>
+            <img src="img/mail.svg" width="40" />
+            <span>Per E-Mail</span><br />
+            <a href="mailto:karlfriedrich.boehle@freenet.de">karlfriedrich.boehle@freenet.de</a>
+          </p>
+          <p>
+            <img src="img/phone.svg" width="40" />
+            <span>Per Telefon</span><br />
+            <a href="tel:0151 58603520">0151 58603520</a>
+          </p>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <div id="imprint" class="section">
+    <footer id="imprint">
       <div class="container">
-          <h1>Impressum</h1>
+        <h1>Impressum</h1>
         <h3>Angaben gem&auml;&szlig; &sect; 5 TMG</h3>
         <p>
           Reinhard Arnold<br />
@@ -133,6 +193,6 @@
           E-Mail: radathlon@gmail.com
         </p>
       </div>
-    </div>
+    </footer>
   </body>
 </html>

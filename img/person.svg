@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 48 48"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   sodipodi:docname="person.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="8.9097041"
+     inkscape:cx="28.452123"
+     inkscape:cy="26.487973"
+     inkscape:window-width="1392"
+     inkscape:window-height="1027"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath212">
+      <path
+         d="M 2557.9329,880.13892 H 2667.3614 V 989.56727 H 2557.9329 Z"
+         transform="matrix(4.3215484,0,0,4.3215484,-11054.431,-3803.563)"
+         clip-rule="evenodd"
+         id="path212" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path211"
+       d="M 465.03809,472.86523 H 7.5 C 3.3579102,472.86523 0,469.50781 0,465.36523 V 422.62402 C 0,351.51367 57.852539,293.66113 128.96289,293.66113 H 343.57422 C 414.68555,293.66113 472.53809,351.51367 472.53809,422.62402 V 465.36523 C 472.53809,469.50781 469.18066,472.86523 465.03809,472.86523 Z M 236.26904,273.49609 C 160.86572,273.49609 99.520996,212.15137 99.520996,136.74805 C 99.520996,61.344727 160.86572,0 236.26904,0 C 311.67188,0 373.0166,61.344727 373.0166,136.74805 C 373.0166,212.15137 311.67188,273.49609 236.26904,273.49609 Z"
+       style="fill:#00963f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(0.07404753,0,0,0.07404753,6.5048608,6.4927488)"
+       clip-path="url(#clipPath212)" />
+  </g>
+</svg>

@@ -1,98 +1,276 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Trebuchet MS', sans-serif;
+    font-family: Inter, sans-serif;
 }
 
-div#background {
-    display: none;
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-    z-index: 0;
+p {
+    font-size: 18px;
+    line-height: 1.5;
 }
 
-img#bg-left {
-    position: absolute;
-    left: 0;
-    height: 100%;
+a.button {
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    background-color: #00963f;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 14px;
+    width: 180px;
+    margin: 20px 0;
+    border-radius: 6px;
+}
+a.button.disabled {
+    background-color: #888;
+    /* text-decoration: line-through; */
+}
+a#yt-button {
+    vertical-align: middle;
+    display: inline-block;
+    margin: 20px 0;
+}
+.button-wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
 }
 
-img#bg-right {
-    position: absolute;
-    right: 0;
-    height: 100%;
+header {
+    width: 100%;
+    color: white;
+    background-image: url("img/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 16px 64px 64px 64px;
+    box-sizing: border-box;
 }
-
-img#bg-logo {
-    width: 210px;
-    position: absolute;
-    left: 20px;
-    top: 20px;
-}
-
-img#logo {
+header img#logo {
     display: block;
     margin: 0 auto;
-    max-width: 210px;
+    width: 180px;
+    margin-bottom: 128px;
+}
+header h2 {
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+header img#logo-text {
+    width: 100%;
+    max-width: 450px;
+    margin: 20px 0;
+}
+header p.tagline {
+    font-size: 20px;
+    line-height: 1.3;
+    letter-spacing: 1px;
+}
+
+section {
+    padding: 64px;
+    background-image: linear-gradient(rgb(244, 245, 255), #FFF);
+}
+
+footer {
+    padding: 64px;
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        padding: 16px 32px 32px 32px;
+    }
+    header img#logo {
+        margin-bottom: 64px;
+    }
+    header .button-wrapper {
+        grid-template-columns: auto;
+        justify-items: center;
+        justify-content: center;
+    }
+    section {
+        padding: 32px;
+    }
+    footer {
+        padding: 32px;
+    }
 }
 
 .container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+section h1 {
+    color: #00963f;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+section h1 a {
+    color: #00963f;
+}
+
+section .col {
+    vertical-align: top;
+    display: inline-block;
+    white-space: normal;
+    box-sizing: border-box;
+}
+
+section#was {
+    white-space: nowrap;
+}
+section#was h1 {
+    margin-bottom: 32px;
+}
+section#was #col-left {
+    width: 60%;
+    padding-right: 64px;
+}
+section#was #col-right {
+    width: 40%;
+}
+@media screen and (max-width: 800px) {
+    section#was {
+        white-space: normal;
+    }
+    section#was #col-left {
+        width: 100%;
+        padding-right: 0;
+    }
+    section#was #col-right {
+        width: 100%;
+    }
+}
+
+.card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+.card {
+    background-color: white;
+    border-radius: 32px;
+    padding: 32px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align: center;
+}
+.card img {
+    width:80px;
+}
+.card h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 16px 0;
+}
+.card .button {
+    width: 100%;
+    padding: 14px;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 950px) {
+    .card-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 700px) {
+    .card-wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+section#strecke {
+    padding: 0;
+}
+section#strecke .container {
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    align-items: center;
+}
+section#strecke .col {
+    padding: 64px;
+}
+@media screen and (max-width: 800px) {
+    section#strecke .container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    section#strecke .col {
+        padding: 32px;
+    }
+}
+
+section#kontakt {
+    padding: 0;
+}
+section#kontakt .container {
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    align-items: center;
+}
+section#kontakt .col {
+    padding: 64px;
+    overflow: hidden;
+}
+section#kontakt .col p {
     position: relative;
-    padding: 24px;
-    z-index: 1;
+    left: 48px;
+}
+section#kontakt .col img {
+    position: absolute;
+    top: 16px;
+    left: -48px;
+}
+section#kontakt .col span {
+    text-transform: uppercase;
+}
+@media screen and (max-width: 800px) {
+    section#kontakt .container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    section#kontakt .col {
+        padding: 32px;
+    }
 }
 
-@media screen and (min-width: 768px) {
-    div#background {
-        display: block;
-    }
-
-    img#logo {
-        display: none;
-    }
-    img#bg-logo {
-        width: 150px;
-    }
-
-    .container {
-        margin-left: 150px;
+.youtube-embed {
+    width: 320px;
+    height: 180px;
+}
+@media screen and (min-width: 600px) {
+    .youtube-embed {
         width: 500px;
-        font-size: larger;
+        height: 280px;
     }
 }
-
-@media screen and (min-width: 1200px) {
-    img#bg-logo {
-        width: 210px;
-    }
-
-    .container {
-        margin-left: 250px;
+@media screen and (min-width: 814px) {
+    .youtube-embed {
         width: 750px;
-        font-size: larger;
+        height: 420px;
     }
 }
-
-@media screen and (min-width: 1500px) {
-    .container {
-        margin: 0 auto;
+@media screen and (min-width: 1328px) {
+    .youtube-embed {
+        width: 1200px;
+        height: 675px;
     }
-}
-
-.section {
-    background-image: linear-gradient(rgb(244, 245, 255), #FFF);
-    z-index: -1;
 }
 
 #imprint {
-    position: relative;
     background-color: #333;
-    background-image: none;
+    background-image: linear-gradient(#333, #444);
     color: #eee;
-    z-index: 1;
+}
+#imprint h1 {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 a {
@@ -110,21 +288,6 @@ h1 a {
 
 h1 a:hover {
     text-decoration: none;
-}
-
-ul {
-    margin-left: 20px;
-    list-style-type: square;
-}
-
-h1 {
-    padding: 20px 0;
-    text-align: center;
-}
-
-h2 {
-    padding: 20px 0;
-    text-align: center;
 }
 
 p {

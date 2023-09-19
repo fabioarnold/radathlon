@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 48 48"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   sodipodi:docname="mail.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="8.9097041"
+     inkscape:cx="28.452123"
+     inkscape:cy="26.487973"
+     inkscape:window-width="1392"
+     inkscape:window-height="1027"
+     inkscape:window-x="338"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath212">
+      <path
+         d="M 2557.9329,880.13892 H 2667.3614 V 989.56727 H 2557.9329 Z"
+         transform="matrix(4.3215484,0,0,4.3215484,-11054.431,-3803.563)"
+         clip-rule="evenodd"
+         id="path212" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath208">
+      <path
+         d="M 2557.9329,1400.8027 H 2667.3614 V 1503.978 H 2557.9329 Z"
+         transform="matrix(0.36557034,0,0,0.36830515,-931.1062,-513.92285)"
+         clip-rule="evenodd"
+         id="path208" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path207"
+       d="M 43.98,16 C 43.98,14.56 43.23,13.31 42.099998,12.6 L 23.999998,2 L 5.8999977,12.6 C 4.7699976,13.31 3.9999976,14.56 3.9999976,16 V 36 C 3.9999976,38.209999 5.7899976,40 7.9999976,40 H 39.999996 C 42.209995,40 43.999996,38.209999 43.999996,36 L 43.979996,16 Z M 24,26 L 7.4799995,15.67 L 24,6 L 40.52,15.67 Z"
+       style="fill:#00963f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(0.87534451,0,0,0.86884473,2.9917346,5.7542638)"
+       clip-path="url(#clipPath208)" />
+  </g>
+</svg>
