@@ -263,6 +263,18 @@ section#kontakt .col span {
     }
 }
 
+section#sponsoren {
+text-align: center;
+}
+section#sponsoren a {
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+}
+section#sponsoren a {
+    text-decoration: none;
+}
+
 #imprint {
     background-color: #333;
     background-image: linear-gradient(#333, #444);
