@@ -174,7 +174,7 @@ section#was #col-right {
     padding: 14px;
     box-sizing: border-box;
 }
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1050px) {
     .card-wrapper {
         grid-template-columns: repeat(2, 1fr);
     }
