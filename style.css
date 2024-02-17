@@ -9,7 +9,7 @@ p {
     line-height: 1.5;
 }
 
-a.button {
+.button {
     font-size: 14px;
     text-align: center;
     display: inline-block;
@@ -21,8 +21,12 @@ a.button {
     width: 180px;
     margin: 20px 0;
     border-radius: 6px;
+    border: none;
 }
-a.button.disabled {
+.button:hover {
+    background-color: #00A550;
+}
+.button:disabled {
     background-color: #888;
     /* text-decoration: line-through; */
 }

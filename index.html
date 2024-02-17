@@ -28,13 +28,15 @@
           <!-- <a id="yt-button" href="https://www.youtube.com/@radathlon" target="_blank">
             <img src="img/yt_logo_rgb_dark.png" width="180" />
           </a> -->
-          <a
+          <button
+            id="signup-button"
             class="button"
             title="Die Anmeldung wird bald möglich sein!"
-            onclick="alert('Die Anmeldung wird bald möglich sein!')"
             style="float: right"
-            >Jetzt anmelden</a
+            disabled
           >
+            Jetzt anmelden
+          </button>
         </div>
       </div>
     </header>
@@ -449,5 +451,25 @@
         </p>
       </div>
     </footer>
+    <script>
+      const signupButton = document.getElementById("signup-button");
+      function updateCountdown() {
+        const now = new Date();
+        const eventDate = new Date("2024-03-09T12:00:00");
+        if (eventDate < now) {
+          signupButton.innerText = "Anmelden";
+          signupButton.disabled = false;
+        } else {
+          const diff = eventDate - now;
+          const days = Math.floor(diff / 1000 / 60 / 60 / 24);
+          const hours = ("0" + Math.floor((diff / 1000 / 60 / 60) % 24)).slice(-2);
+          const minutes = ("0" + Math.floor((diff / 1000 / 60) % 60)).slice(-2);
+          const seconds = ("0" + Math.floor((diff / 1000) % 60)).slice(-2);
+          signupButton.innerHTML = `Anmeldung in<br>${days} Tagen ${hours}:${minutes}:${seconds}`;
+        }
+      }
+      updateCountdown();
+      setInterval(updateCountdown, 1000);
+    </script>
   </body>
 </html>
